@@ -8,6 +8,8 @@
   - Mocha: https://mochajs.org/ - Testrunner ohne Assertionlibrary und ohne Infrastruktur
   - Karma (Infrastruktur): https://karma-runner.github.io/
   - Vergleich: https://www.npmtrends.com/jest-vs-mocha-vs-jasmine-core
+  - Katas: https://github.com/sspringer82/katas
+  - Coding Challenges: https://github.com/sspringer82/programmingChallenges
 
 ## Karma/Jasmine
 

@@ -12,6 +12,11 @@ describe('Calculator', () => {
     // expect((new Calc).add(1,1)).toBe(2);
   });
 
+  it('should work', () => {
+    const value = true;
+    expect(value).not.toBe(false);
+  });
+
   describe('add', () => {
     let calc;
     beforeEach(() => {
@@ -35,6 +40,8 @@ describe('Calculator', () => {
 
     it('should add 3 and 2 and return 5', () => {
       const result = calc.add(3, 2);
+      expect(result).toBeDefined();
+      expect(result).toBeGreaterThan(4);
       expect(result).toBe(5);
     });
   });
