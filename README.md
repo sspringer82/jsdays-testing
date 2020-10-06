@@ -26,3 +26,8 @@ Ausführung:
 1. Sourcecode organisieren (entweder clone oder download)
 2. `npm install` - im Wurzelverzeichnis des Projekts
 3. `npm run karma` - im Wurzelverzeichnis des Projekts
+
+## Jasmine
+
+- fit/fdescribe => nur den aktuellen Test ausführen
+- xit/xdescribe => skippt den aktuellen Test
