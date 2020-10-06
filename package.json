@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "karma": "karma start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/sspringer82/jsdays-testing/issues"
   },
-  "homepage": "https://github.com/sspringer82/jsdays-testing#readme"
+  "homepage": "https://github.com/sspringer82/jsdays-testing#readme",
+  "devDependencies": {
+    "jasmine-core": "^3.6.0",
+    "karma": "^5.2.3",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^4.0.1"
+  }
 }
