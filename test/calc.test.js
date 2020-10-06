@@ -44,5 +44,24 @@ describe('Calculator', () => {
       expect(result).toBeGreaterThan(4);
       expect(result).toBe(5);
     });
+
+    it('should throw an error if the first param is a string', () => {
+      const func = () => {
+        calc.add('not number', 2);
+      };
+      expect(func).toThrow();
+    });
+    it('should throw an error if the second param is a string', () => {
+      const func = () => {
+        calc.add(2, 'not number');
+      };
+      expect(func).toThrow();
+    });
+    it('should throw an error if the both param are strings', () => {
+      const func = () => {
+        calc.add('not number', 'not number');
+      };
+      expect(func).toThrow();
+    });
   });
 });
