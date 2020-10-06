@@ -2,8 +2,6 @@ function doSomething(window) {
   window.location.href = '/foo';
 }
 
-doSomething(window);
-
 it('should change the location', () => {
   const fakeWindow = {
     location: {
