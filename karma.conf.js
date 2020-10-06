@@ -50,7 +50,7 @@ module.exports = function (config) {
 
     client: {
       jasmine: {
-        random: true,
+        random: false,
       },
     },
 

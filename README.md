@@ -14,6 +14,11 @@
   - https://www.npmjs.com/package/fetch-mock
   - https://www.npmjs.com/package/axios-mock-adapter
 - API testing mit Supertest: https://github.com/visionmedia/supertest
+- Angular Testing: https://angular.io/guide/testing
+- Testing Library: https://testing-library.com/docs/intro
+- React:
+  - Enzyme: https://github.com/enzymejs/enzyme
+  - React Testing Library: https://testing-library.com/docs/react-testing-library/intro
 
 ## Karma/Jasmine
 
