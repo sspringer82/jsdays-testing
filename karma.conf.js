@@ -46,6 +46,12 @@ module.exports = function (config) {
     // if true, Karma captures browsers, runs the tests and exits
     singleRun: false,
 
+    client: {
+      jasmine: {
+        random: true,
+      },
+    },
+
     // Concurrency level
     // how many browser should be started simultaneous
     concurrency: Infinity,

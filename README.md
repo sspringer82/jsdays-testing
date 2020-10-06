@@ -7,9 +7,13 @@
   - Jasmine: https://jasmine.github.io/ - Testrunner ohne Infrastruktur
   - Mocha: https://mochajs.org/ - Testrunner ohne Assertionlibrary und ohne Infrastruktur
   - Karma (Infrastruktur): https://karma-runner.github.io/
-  - Vergleich: https://www.npmtrends.com/jest-vs-mocha-vs-jasmine-core
-  - Katas: https://github.com/sspringer82/katas
-  - Coding Challenges: https://github.com/sspringer82/programmingChallenges
+- Vergleich: https://www.npmtrends.com/jest-vs-mocha-vs-jasmine-core
+- Katas: https://github.com/sspringer82/katas
+- Coding Challenges: https://github.com/sspringer82/programmingChallenges
+- Server Mocks:
+  - https://www.npmjs.com/package/fetch-mock
+  - https://www.npmjs.com/package/axios-mock-adapter
+- API testing mit Supertest: https://github.com/visionmedia/supertest
 
 ## Karma/Jasmine
 
